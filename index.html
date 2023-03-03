@@ -28,10 +28,10 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" as="font" href="assets/fonts/THICCCBOI-ExtraBold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/THICCCBOI-ExtraBold.woff2" type="font/woff2" crossorigin="anonymous">
     <link href="vendors/prism/prism.css" rel="stylesheet">
     <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="assets/css/theme.min.css" rel="stylesheet" />
     <link href="assets/css/user.min.css" rel="stylesheet" />
   </head>
 
@@ -40,24 +40,24 @@
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg pb-2 fixed-top navbar-light" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="" style="width:300px;" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-black fs-3"></i></button>
+      <nav class="navbar navbar-expand-lg pb-0 pb-xl-2 fixed-top navbar-light" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="" style="width:350px;max-width:50vw;" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-black fs-3"></i></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0 golos">
               <li class="nav-item dropdown show"><a class="text-black nav-link dropdown-toggle fs-1" style="font-weight:600;" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
-                <ul class="dropdown-menu" style="border-radius:0px;">
-                  <li><a class="dropdown-item" href="windows.html">Window Washing</a></li>
-                  <li><a class="dropdown-item" href="floors.html">Floor Cleaning</a></li>
-                  <li><a class="dropdown-item" href="powerwashing.html">Power Washing</a></li>
+                <ul class="dropdown-menu custom-dd" style="border-radius:2px;">
+                  <li><a class="dropdown-item fs-1" href="windows.html"><i class="fa-solid fa-caret-right pe-2"></i><span>Window Washing</span></a></li>
+                  <li><a class="dropdown-item fs-1" href="floors.html"><i class="fa-solid fa-caret-right pe-2"></i><span>Floor Cleaning</span></a></li>
+                  <li><a class="dropdown-item fs-1" href="powerwashing.html"><i class="fa-solid fa-caret-right pe-2"></i><span>Power Washing</span></a></li>
                 </ul>
               </li>
               <li class="nav-item"><a class="text-black nav-link fs-1" style="font-weight:600;" aria-current="page" href="reviews.html">Reviews</a></li>
-              <li class="nav-item mt-2 mt-lg-0"><a class="nav-link btn btn-success text-white w-md-25 w-50 w-lg-100" aria-current="page" href="tel:6105782838">Call (610) 578-2838</a></li>
+              <li class="nav-item mt-2 mt-lg-0"><a class="nav-link btn btn-success text-white mb-2 w-50 w-lg-100 golos" aria-current="page" href="tel:6105782838" style="letter-spacing:0.05rem;">Call (610) 578-2838</a></li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="bg-white"><img class="img-fluid position-absolute end-0" src="assets/img/hero/hero-bg.png" alt="" />
+      <div class="bg-white pt-0 pt-sm-5 pt-xl-0"><img class="img-fluid position-absolute end-0" src="assets/img/hero/hero-bg.png" alt="" />
 
         <!-- ============================================-->
         <!-- <section> begin ============================-->
@@ -65,8 +65,8 @@
           <div class="container">
             <div class="row align-items-center pt-8">
               <div class="col-lg-7 text-center">
-                <h4 class="thicc text-black fs-3 fs-xl-5">WHETHER IT’S SPARKLING WINDOWS, IMMACULATE FLOORS, OR GOOD AS NEW SIDING</h4>
-                <h1 class="poppins text-dark fs-1 fs-lg-2 fs-xl-3 py-lg-3 py-2"><span class="fw-bold text-primary">STELLAR HOME SERVICES</span> is your one-stop shop to guarantee your home or business is in a pristine condition you can be proud of</h1>
+                <h4 class="thicc text-black fs-3 fs-xl-4">WHETHER IT’S SPARKLING WINDOWS, IMMACULATE FLOORS, OR GOOD AS NEW SIDING</h4>
+                <h1 class="golos text-dark fs-1 fs-lg-2 fs-xl-3 py-lg-3 py-2"><span class="fw-bold text-primary">STELLAR HOME SERVICES</span> is your one-stop shop to guarantee your home or business is in a pristine condition you can be proud of</h1>
               </div>
               <div class="col-lg-5 text-center text-lg-end mt-3 mt-lg-0"><img class="img-fluid" src="assets/img/hero/truck.jpg" alt="" /></div>
             </div>
@@ -80,19 +80,44 @@
       <!-- <section> begin ============================-->
       <section class="custom-bg">
         <div class="container">
-          <h6 class="poppins mx-auto text-center text-white fs-lg-3 fs-2 w-lg-100">We offer a variety of window, floor cleaning, and pressure washing solutions to meet the needs of residential and commercial clients throughout the Lehigh Valley Area</h6>
+          <h6 class="golos mx-auto text-center text-white fs-lg-3 fs-2 w-lg-100">We offer a variety of window, floor cleaning, and pressure washing solutions to meet the needs of residential and commercial clients throughout the Lehigh Valley Area</h6>
           <div class="row gx-xl-7 mt-5">
             <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100" src="assets/img/services/1.png" alt="" />
               <h4 class="thicc mt-3 my-1 text-white">Window Washing</h4>
-              <p class="fs-1 mb-0"></p><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="#">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+              <p class="fs-1 mb-0"></p><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="windows.html">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
             </div>
             <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100" src="assets/img/services/2.png" alt="" />
               <h4 class="thicc mt-3 my-1 text-white">Floor Cleaning</h4>
-              <p class="fs-1 mb-0"></p><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="#">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+              <p class="fs-1 mb-0"></p><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="floors.html">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
             </div>
             <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100" src="assets/img/services/3.png" alt="" />
               <h4 class="thicc mt-3 my-1 text-white">Power Washing</h4>
-              <p class="fs-1 mb-0"></p><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="#">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+              <p class="fs-1 mb-0"></p><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="powerwashing.html">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-lg-start"><img class="img-fluid" src="assets/img/offer/1.png" alt="" /></div>
+            <div class="col-lg-6">
+              <h2 class="fs-2 golos py-3 text-center text-lg-start">We understand that cleaning windows can be a major hassle that the average homeowner is not always well equipped to tackle as a weekend chore. If your home or office needs a high quality, yet affordable, window cleaning service – reach out to our team at <span class="fw-bold text-secondary">STELLAR HOME SERVICES</span> to set up an appointment today!</h2>
+              <h3 class="fs-2 fw-bold text-primary pb-3 text-center text-lg-start">Schedule your free estimate - call (610) 578-2838</h3>
+              <div class="row align-items-center">
+                <div class="col-6 py-2"><i class="fa-solid fa-circle-check fs-1 text-dark pe-4"></i><span class="text-black fs-2">Glass</span></div>
+                <div class="col-6 py-2"><i class="fa-solid fa-circle-check fs-1 text-dark pe-4"></i><span class="text-black fs-2">Frames</span></div>
+                <div class="col-6 py-2"><i class="fa-solid fa-circle-check fs-1 text-dark pe-4"></i><span class="text-black fs-2">Tracks</span></div>
+                <div class="col-6 py-2"><i class="fa-solid fa-circle-check fs-1 text-dark pe-4"></i><span class="text-black fs-2">Sills</span></div>
+                <div class="col-6 py-2"><i class="fa-solid fa-circle-check fs-1 text-dark pe-4"></i><span class="text-black fs-2">Screens</span></div>
+                <div class="col-6 py-2"><i class="fa-solid fa-circle-check fs-1 text-dark pe-4"></i><span class="text-black fs-2">Sliding Doors</span></div>
+              </div><a class="text-white fs-1 pb-2 border-black text-decoration-none" href="windows.html">Learn More<i class="fa-solid fa-arrow-right ms-2"></i></a>
             </div>
           </div>
         </div><!-- end of .container-->
@@ -110,20 +135,19 @@
     <section class="pt-3 pt-lg-5">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4"><img class="img-fluid mb-2 d-lg-inline d-none" src="assets/img/logo_wide.png" alt="Stellar Home Services" /></div>
-          <div class="col-lg-2"></div>
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4"><img class="img-fluid mb-2 d-lg-inline d-none pe-5" src="assets/img/logo_wide.png" alt="Stellar Home Services" /></div>
+          <div class="col-lg-4 col-sm-6 col-12">
             <ul class="list-unstyled">
-              <li class="fs-1 my-4 d-none d-sm-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Free Estimates</span></li>
-              <li class="fs-1 my-4 d-none d-sm-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Satisfaction guaranteed</span></li>
+              <li class="fs-1 my-4 d-none d-sm-flex align-items-center gap-3 text-black golos"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Free Estimates</span></li>
+              <li class="fs-1 my-4 d-none d-sm-flex align-items-center gap-3 text-black golos"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Satisfaction guaranteed</span></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12">
             <ul class="list-unstyled ps-6 ps-sm-0">
-              <li class="fs-1 my-4 d-flex d-sm-none align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Free Estimates</span></li>
-              <li class="fs-1 my-4 d-flex d-sm-none align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Satisfaction guaranteed</span></li>
-              <li class="fs-1 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>New Customer Discounts</span></li>
-              <li class="fs-1 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Discounts for Veterans</span></li>
+              <li class="fs-1 my-4 d-flex d-sm-none align-items-center gap-3 text-black golos"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Free Estimates</span></li>
+              <li class="fs-1 my-4 d-flex d-sm-none align-items-center gap-3 text-black golos"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Satisfaction guaranteed</span></li>
+              <li class="fs-1 my-4 d-flex align-items-center gap-3 text-black golos"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>New Customer Discounts</span></li>
+              <li class="fs-1 my-4 d-flex align-items-center gap-3 text-black golos"><i class="fa-solid fa-circle-check fs-2 text-dark"></i><span>Discounts for Veterans</span></li>
             </ul>
           </div>
         </div>

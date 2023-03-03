@@ -20721,8 +20721,12 @@ a {
   }
 }
 .custom-bg {
-  background-image: url("/assets/img/background.png");
+  background-image: url("../../assets/img/background.png");
   background-size: cover;
+}
+
+.custom-dd {
+  border: 2px solid var(--secondary) !important;
 }
 
 @font-face {
@@ -20731,21 +20735,21 @@ a {
   font-style: normal;
   font-display: swap;
   unicode-range: U+000-5FF;
-  src: local("Thicccboi"), url("/assets/fonts/THICCCBOI-ExtraBold.woff2") format("woff2");
+  src: local("Thicccboi"), url("../../assets/fonts/THICCCBOI-ExtraBold.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Golos";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
   unicode-range: U+000-5FF;
-  src: local("Thicccboi"), url("/assets/fonts/Montserrat-Regular.woff2") format("woff2");
+  src: local("Thicccboi"), url("../../assets/fonts/Golos-Text_regular.woff2") format("woff2");
 }
 .thicc {
   font-family: "Thicccboi";
 }
 
-.poppins {
-  font-family: "Montserrat";
+.golos {
+  font-family: "Golos";
 }
 /*# sourceMappingURL=theme-rtl.css.map */
