@@ -20743,6 +20743,12 @@ a {
     padding-bottom: 10px;
   }
 }
+@media (min-width: 992px) {
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
 .custom-bg {
   background-image: url("../../assets/img/background.png");
   background-size: cover;
@@ -20752,22 +20758,30 @@ a {
   border: 2px solid var(--secondary) !important;
 }
 
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ccc), color-stop(#333), to(#ccc));
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 @font-face {
   font-family: "Thicccboi";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
   unicode-range: U+000-5FF;
-  src: local("Thicccboi"), url("../../assets/fonts/THICCCBOI-ExtraBold.woff2") format("woff2");
+  src: url("../../assets/fonts/THICCCBOI-ExtraBold.woff2") format("woff2");
 }
-
 @font-face {
   font-family: "Golos";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
   unicode-range: U+000-5FF;
-  src: local("Golos"), url("../../assets/fonts/golos-text_regular.woff2") format("woff2");
+  src: url("../../assets/fonts/golos-text_regular.woff2") format("woff2");
 }
 .thicc {
   font-family: "Thicccboi";
