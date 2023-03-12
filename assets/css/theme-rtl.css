@@ -20731,6 +20731,13 @@ a {
   background-size: cover;
 }
 
+.custom-bg-dark {
+  background-image: -webkit-gradient(linear, right top, right bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../../assets/img/background.png");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../assets/img/background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../assets/img/background.png");
+  background-size: cover;
+}
+
 .custom-dd {
   border: 2px solid var(--secondary) !important;
 }
