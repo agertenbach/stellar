@@ -20749,6 +20749,11 @@ a {
     padding-bottom: 2rem;
   }
 }
+@media screen and (max-width: 551px) {
+  .rys {
+    padding-top: 8rem !important;
+  }
+}
 .custom-bg {
   background-image: url("../../assets/img/background.png");
   background-size: cover;

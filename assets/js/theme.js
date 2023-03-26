@@ -365,8 +365,9 @@ var navbarInit = function navbarInit() {
     NAVBAR_ON_SCROLL: 'navbar-light-on-scroll'
   };
   var navbar = document.querySelector(Selector.NAVBAR);
+  var shouldFade = document.title.includes('Stellar Home Services');
 
-  if (navbar) {
+  if (navbar && shouldFade) {
     var windowHeight = window.innerHeight;
     var html = document.documentElement;
     var navbarCollapse = navbar.querySelector(Selector.NAVBAR_COLLAPSE);
